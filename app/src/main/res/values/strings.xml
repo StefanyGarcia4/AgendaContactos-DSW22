@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="app_title">Agenda de Contactos</string>
+    <string name="app_subtitle">ITCA FEPADE - Examen Práctico #1</string>
+    <string name="search_placeholder">Buscar por nombre o teléfono…</string>
+    <string name="add_contact">Nuevo Contacto</string>
+    <string name="edit_contact">Editar Contacto</string>
+    <string name="contact_details">Detalles del Contacto</string>
+    <string name="delete_contact">Eliminar Contacto</string>
+    <string name="name_label">Nombre completo *</string>
+    <string name="phone_label">Teléfono *</string>
+    <string name="email_label">Correo electrónico</string>
+    <string name="category_label">Categoría</string>
+    <string name="notes_label">Notas adicionales</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="confirm_delete_msg">¿Estás seguro de que deseas eliminar este contacto? Esta acción no se puede deshacer.</string>
+    <string name="empty_contacts_title">Sin contactos registrados</string>
+    <string name="empty_contacts_desc">Comienza agregando tu primer contacto con el botón +</string>
+    <string name="no_search_results">No se encontraron contactos</string>
+    <string name="contact_saved">Contacto guardado exitosamente</string>
+    <string name="contact_updated">Contacto actualizado exitosamente</string>
+    <string name="contact_deleted">Contacto eliminado</string>
+</resources>
