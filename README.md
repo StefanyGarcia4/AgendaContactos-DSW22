@@ -38,3 +38,27 @@ La aplicación cumple con todas las operaciones CRUD y validaciones requeridas[c
 1. Clonar el repositorio:
    ```bash
    git clone [https://github.com/StefanyGarcia4/AgendaContactos-DSW22.git](https://github.com/StefanyGarcia4/AgendaContactos-DSW22.git)
+
+
+## 🔑 Crear el `debug.keystore` (obligatorio)
+
+El proyecto firma la versión debug con un archivo `debug.keystore` que **no está incluido en el repositorio**. Antes de ejecutar la app, créalo en la raíz del proyecto.
+
+1. Abre una terminal (CMD o PowerShell) y ve a la carpeta donde clonaste el proyecto:
+
+```bash
+   cd RUTA\DONDE\CLONASTE\AgendaContactos-DSW22
+```
+
+2. Ejecuta el siguiente comando (Windows, con la ruta por defecto de Android Studio):
+
+```bash
+   "C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe" -genkeypair -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+```
+
+   > Si instalaste Android Studio en otra ruta, o si usas macOS/Linux, reemplaza la ruta de `keytool` por la de tu instalación, o usa simplemente `keytool` si tienes un JDK 17 en el PATH.
+
+3. Verifica que el archivo `debug.keystore` quedó en la raíz del proyecto (junto a `settings.gradle.kts`).
+4. En Android Studio, haz *File > Sync Project with Gradle Files* y presiona **Run**.
+
+> ⚠️ La ruta del proyecto no debe tener acentos ni caracteres especiales (por ejemplo, evita `Imágenes`), porque el plugin de Android falla en Windows.
