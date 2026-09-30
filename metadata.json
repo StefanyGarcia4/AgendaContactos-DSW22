@@ -1,0 +1,6 @@
+{
+  "name": "Agenda de Contactos",
+  "description": "Aplicación de agenda de contactos con persistencia local Room Database y operaciones CRUD completas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
